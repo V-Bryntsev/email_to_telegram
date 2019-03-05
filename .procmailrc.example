@@ -1,0 +1,11 @@
+# .procmailrc - procmail config files
+# Переменные
+#
+MAILDIR=/root/mail                    # mail catalog
+LOGFILE=/root/mail/procmail.log       # log file
+DEFAULT=/root//mail/mbox               # file with not sort messages
+
+#For all messages call python script
+:0
+| env python /root/mail/email_to_telegram.py
+

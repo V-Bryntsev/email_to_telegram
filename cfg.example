@@ -1,0 +1,6 @@
+[TELEGRAM]
+USERNAME = telegram_proxy_username
+PASS = telegram_proxy_pass
+PROXY_HOSTPORT = proxy.example.com:8443
+TOKEN = telegram_bot_token
+RECIPIENT = id_telegram_recipient

@@ -1,0 +1,14 @@
+# .fetchmailrc - fetchmail config file, must be in home folder of user
+# set log file
+set syslog set logfile "./fetchmail.log"
+# default settings
+defaults       protocol imap,
+timeout 60,
+nokeep,          # delete message from server after getting
+fetchall          
+
+poll SERVER_HOSTNAME protocol IMAP,
+ user "USERNAME",
+ password "MY_PASSWORD",
+ folder 'FOLDER'; #This is a folder in the mailbox, content messages with the subject "email_to_telebot...". Filter can by settings by mail client, sieve or something else
+
