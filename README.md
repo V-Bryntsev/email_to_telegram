@@ -10,10 +10,10 @@ Script use socks5 proxy (because telegram "block" in Russia)
 4. Script parse message, get config for telegram from cfg file and send it to telegram
 
 ## Files:
-.fetchmailrc.example - example of fetchmail config
-.procmailrc.example - example of procmail config
-cfg.example - config file example
-email_to_telegram.py - script
+1. .fetchmailrc.example - example of fetchmail config
+2. .procmailrc.example - example of procmail config
+3. cfg.example - config file example
+4. email_to_telegram.py - script
 
 ## TODO:
 Implement processing attachments
